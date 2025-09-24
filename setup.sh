@@ -23,6 +23,7 @@ cp ./tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
 # setup tm script
+mkdir -p ~/.local/bin
 cp ./tm ~/.local/bin/tm
 chmod +x ~/.local/bin/tm
 
