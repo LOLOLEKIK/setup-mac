@@ -34,5 +34,7 @@ cp nvim/tmux-navigator.lua ~/.config/nvim/lua/plugins/tmux-navigator.lua
 cp nvim/mappings.lua ~/.config/nvim/lua/mappings.lua
 cp nvim/chadrc.lua ~/.config/nvim/lua/chadrc.lua
 
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -float 0.4; killall Dock
 
 echo "Setup complete! Apply profile iterm2 and please restart your terminal."
