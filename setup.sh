@@ -22,6 +22,10 @@ brew install tmux
 cp ./tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
+# setup tm script
+cp ./tm ~/.local/bin/tm
+chmod +x ~/.local/bin/tm
+
 # Install nvchad
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
