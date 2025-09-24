@@ -26,6 +26,7 @@ tmux source-file ~/.tmux.conf
 mkdir -p ~/.local/bin
 cp ./tm ~/.local/bin/tm
 chmod +x ~/.local/bin/tm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Install nvchad
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
